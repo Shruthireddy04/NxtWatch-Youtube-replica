@@ -123,7 +123,7 @@ class login extends Component {
                     Show Password
                   </ShowPasswordLabel>
                   <div>
-                    <LoginButton type="submit">Login</LoginButton>
+                    <LoginButton type="sumbit">Login</LoginButton>
                   </div>
                   <ErrorMsg>{isError && `* ${errorMsg}`}</ErrorMsg>
                 </Form>
